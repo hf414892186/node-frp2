@@ -15,7 +15,7 @@ let osRelease = null
 
 switch (platform) {
   case "win32":
-    osRelease = `windows_${arch}`
+    osRelease = `windows_amd64`
     break
   case "darwin":
     osRelease = "darwin_amd64"
